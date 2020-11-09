@@ -12,8 +12,13 @@
   git clone https://github.com/tjuskyzhang/mobilenetv1-ssd-tensorrt.git
   
   git clone https://github.com/qfgaohao/pytorch-ssd.git
+  
   cd pytorch-ssd
+  
   wget -P models https://storage.googleapis.com/models-hao/mobilenet-v1-ssd-mp-0_675.pth
+``` 
+// 权重下载链接：https://pan.baidu.com/s/1Nagw-qP_PdTG4u_a9Dml-Q 提取码：yg27  
+```
   cp ../mobilenetv1-ssd-tensorrt/gen_wts.py .
 
   python gen_wts.py
