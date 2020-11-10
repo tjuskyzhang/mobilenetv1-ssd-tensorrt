@@ -28,7 +28,7 @@
 // A file named 'mobilenet-v1-ssd.wts' will be generated.
 
 ```
-  cp mobilenet-v1-ssd.wts ../mobilenetv1-ssd-tensorrt
+  cp models/mobilenet-v1-ssd.wts ../mobilenetv1-ssd-tensorrt
 ```
 
 (2) Build and run
