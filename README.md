@@ -16,6 +16,8 @@
   cd pytorch-ssd
   
   wget -P models https://storage.googleapis.com/models-hao/mobilenet-v1-ssd-mp-0_675.pth
+  
+  wget -P models https://storage.googleapis.com/models-hao/voc-model-labels.txt
 ``` 
 // 权重下载链接：https://pan.baidu.com/s/1Nagw-qP_PdTG4u_a9Dml-Q 提取码：yg27  
 ```
