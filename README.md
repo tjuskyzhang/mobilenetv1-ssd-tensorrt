@@ -46,7 +46,7 @@
 
   make
 ```
-// Serialize the model and generate yolov4-tiny.engine
+// Serialize the model and generate ssd_mobilenet.engine
 ```
   ./mobilenet-ssd-tensorrt -s
 ```
