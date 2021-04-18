@@ -6,6 +6,8 @@
 
 * Another project ["yolov4-tiny-tensorrt"](https://github.com/tjuskyzhang/yolov4-tiny-tensorrt).
 
+* Another project ["yolov4-csp-tensorrt"](https://github.com/tjuskyzhang/yolov4-csp-tensorrt).
+
 ## Excute:
 
 (1) Generate mobilenet-v1-ssd.wts from pytorch implementation
