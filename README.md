@@ -4,9 +4,8 @@
 
 * The project also has been tested on TensorRT 7.1.0(Developer Preview) CUDA 10.2 CUDNN 8.0.0(Developer Preview), and costs about 10-12ms(83-100fps) to inference an image on TX2 (by using the MAX-N mode and jetson_clocks).
 
-* Another project ["yolov4-tiny-tensorrt"](https://github.com/tjuskyzhang/yolov4-tiny-tensorrt).
+* Another project ["Scaled-YOLOv4-TensorRT"]https://github.com/tjuskyzhang/Scaled-YOLOv4-TensorRT).
 
-* Another project ["yolov4-csp-tensorrt"](https://github.com/tjuskyzhang/yolov4-csp-tensorrt).
 
 ## Excute:
 
