@@ -103,7 +103,7 @@ float iou(std::vector<float> lbox, std::vector<float> rbox)
     return 0.0f;
 
   float interBoxS = (interBox[1] - interBox[0]) * (interBox[3] - interBox[2]);
-  return interBoxS / (lbox[2] * lbox[3] + rbox[2] * rbox[3] - interBoxS);
+  return interBoxS / ((lbox[2] - lbox[0]) * (lbox[3] - lbox[1]) + (rbox[2] - rbox[0]) * (rbox[3] - rbox[1]) - interBoxS);
 }
 
 bool cmp(const ssd::Detection &a, const ssd::Detection &b)
