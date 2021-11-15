@@ -25,7 +25,7 @@
 
 #define USE_FP16  // comment out this if want to use FP32
 #define DEVICE 0 // GPU id
-#define NMS_THRESH 0.04
+#define NMS_THRESH 0.45
 #define BBOX_CONF_THRESH 0.5
 
 using namespace nvinfer1;
